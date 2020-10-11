@@ -66,10 +66,10 @@ and open the template in the editor.
                 </th>
                 </tr >
                 <?php
-                    $con11= mysqli_connect("localhost","root","","example");
+                    $con11= mysqli_connect("localhost","test","Asdf@1234","test");
                     if($con11)
                     {
-                        $sel114="SELECT `name`,`city`,`occupation` FROM `table1`";
+                        $sel114="SELECT `name`,`city`,`occupation` FROM `formdata`";
                     $res11= mysqli_query($con11,$sel114);
                     
                         $row11= mysqli_num_rows($res11);
