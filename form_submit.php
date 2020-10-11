@@ -5,7 +5,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-$con1= mysqli_connect("localhost","root","","example");
+$con1= mysqli_connect("localhost","test","Asdf@1234","test");
 if($con1)
 {
         $name1= mysqli_real_escape_string($con1,$_POST['name1']);
