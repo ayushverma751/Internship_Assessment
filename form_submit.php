@@ -5,11 +5,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-$con1= mysqli_connect('localhost','root','','example');
+$con1= mysqli_connect('localhost','test','Asdf@1234','test');
         $name1= $_POST['name1'];
         $city1= $_POST['city1'];
         $occupation1= $_POST['occupation1'];
-        $res1=mysqli_query($con1,"INSERT INTO `table1` (`name`, `city`, `occupation`) VALUES ('$name1', '$city1', '$occupation1')");
+        $res1=mysqli_query($con1,"INSERT INTO `formdata` (`name`, `city`, `occupation`) VALUES ('$name1', '$city1', '$occupation1')");
         if($res1){
 	echo 'data save successfully..';
 	}
