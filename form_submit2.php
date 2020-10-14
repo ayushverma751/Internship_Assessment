@@ -8,9 +8,9 @@
  *  /
  * 
  */
-$con2= mysqli_connect('localhost','root','','example');
+$con2= mysqli_connect('localhost','test','Asdf@1234','test');
 
-$q="SELECT * from table1";
+$q="SELECT * from formdata";
 $query=mysqli_query($con2,$q);
 $data=array();
     while($result=mysqli_fetch_array($query))
